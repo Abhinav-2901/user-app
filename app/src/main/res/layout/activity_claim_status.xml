@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".ClaimStatus">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:text="Claim title"
+            android:padding="3dip" />
+        <TextView
+            android:text="xyz"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:textSize="@dimen/dp_20"
+            android:text="Claim ID"
+            android:padding="3dip" />
+        <TextView
+            android:text="7857869865765"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:text="Claim Date"
+            android:padding="3dip" />
+        <TextView
+            android:text="28-06-2021"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:textSize="@dimen/dp_20"
+            android:text="Claim Status"
+            android:padding="3dip" />
+        <TextView
+            android:text="Pending"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:text="User ID"
+            android:padding="3dip" />
+        <TextView
+            android:text="xyz_1234"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:textSize="@dimen/dp_20"
+            android:text="Policy Number"
+            android:padding="3dip" />
+        <TextView
+            android:text="6498583475"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:text="Car Model"
+            android:padding="3dip" />
+        <TextView
+            android:text="XUV"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:textSize="@dimen/dp_20"
+            android:text="Car ID"
+            android:padding="3dip" />
+        <TextView
+            android:text="1234001234"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:text="Agent ID"
+            android:padding="3dip" />
+        <TextView
+            android:text="1946746678"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:textSize="@dimen/dp_20"
+            android:text="Files"
+            android:padding="3dip" />
+        <TextView
+            android:text="Can give click btn"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:text="Remarks"
+            android:padding="3dip" />
+        <TextView
+            android:text="Anything"
+            android:background="@color/yello_100"
+            android:textSize="@dimen/dp_20"
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/dp_10"-->
+<!--            android:textSize="@dimen/dp_20"-->
+<!--            android:layout_marginLeft="@dimen/dp_20"-->
+<!--            android:text="Claim ID : 62467383"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="@dimen/dp_20"-->
+<!--            android:layout_marginLeft="@dimen/dp_20"-->
+<!--            android:text="Claim Status : Pending"/>-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="@dimen/dp_20"-->
+<!--        android:layout_marginLeft="@dimen/dp_20"-->
+<!--        android:text="Model name :  XUV"/>-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="@dimen/dp_20"-->
+<!--        android:layout_marginLeft="@dimen/dp_20"-->
+<!--        android:text="Agent Name :  Mr. XYZ"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="@dimen/dp_20"-->
+<!--        android:layout_marginLeft="@dimen/dp_20"-->
+<!--        android:text="Claim Amount :  1,00,000"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="@dimen/dp_20"-->
+<!--        android:layout_marginLeft="@dimen/dp_20"-->
+<!--        android:text="Insurance Type : 0 dep"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="@dimen/dp_20"-->
+<!--        android:layout_marginLeft="@dimen/dp_20"-->
+<!--        android:text="Date : 28-06-2021 "/>-->
+
+
+
+
+
+
+
+
+
+
+</TableLayout>
